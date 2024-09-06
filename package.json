@@ -1,11 +1,14 @@
 {
   "name": "@matthiasschild/ucid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unique context-based identifier",
   "main": "dist/ucid.js",
   "types": "dist/ucid.d.ts",
   "files": [
-    "/dist"
+    "/dist",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
   ],
   "scripts": {
     "build": "tsc",
