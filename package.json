@@ -1,0 +1,27 @@
+{
+  "name": "@matthiasschild/ucid",
+  "version": "1.0.0",
+  "description": "Unique context-based identifier",
+  "main": "dist/ucid.js",
+  "types": "dist/ucid.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthiasSchild/ucid.js.git"
+  },
+  "author": "Matthias Schild",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatthiasSchild/ucid.js/issues"
+  },
+  "homepage": "https://github.com/MatthiasSchild/ucid.js#readme",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
